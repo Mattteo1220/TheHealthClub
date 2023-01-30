@@ -27,13 +27,19 @@ header{
     text-align: center;
 }
 
-header h1{
+header #logo{
     width: 250px;
     margin: 0;
     align-self:center;
 }
 
-header h1:hover{
+#logo img{
+    width: 120px;
+    height: auto;
+    border-radius: 25% 10%;
+}
+
+header #logo:hover{
     cursor:pointer;
 }
 
@@ -46,6 +52,7 @@ header{
 
 header nav{
     margin: 0;
+    align-self: center;
 }
 
 header nav ul{
@@ -56,11 +63,9 @@ header nav ul{
 }
 
 ul li{
-   
     margin: 0 20px 0 20px;
 }
 
 #get-free-pass{
-    padding: 5px;
     border: 1px solid #ffffff;
 }
